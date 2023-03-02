@@ -15,7 +15,7 @@ class Program
         candies .Add("Crunchies");
         candies .Add("Maltesers");
 
-        //candies .Sort();
+        candies .Sort();
         Console.WriteLine($"There are {candies.Count} items in the list");
 
         foreach(string candy in candies)
